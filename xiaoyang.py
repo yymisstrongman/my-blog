@@ -21,7 +21,7 @@ app = FastAPI(title="个人博客后端")
 # 跨域配置，部署时改成你的前端域名
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://yymisstrongman.github.io/my-blog/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
